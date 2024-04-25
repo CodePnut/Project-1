@@ -10,9 +10,9 @@ let resetButton = document.getElementById('reset');
 let result = document.getElementById('result');
 
 // Sounds for the game
-let player1WinSound = new Audio('projects/tic-tac-toe/music/Player 1.mp3');
-let player2WinSound = new Audio('projects/tic-tac-toe/music/Player 2.mp3');
-let drawSound = new Audio('projects/tic-tac-toe/music/draw.mp3');
+let player1WinSound = new Audio('/my-repo/projects/tic-tac-toe/music/Player 1.mp3');
+let player2WinSound = new Audio('/my-repo/projects/tic-tac-toe/music/Player 2.mp3');
+let drawSound = new Audio('/my-repo/projects/tic-tac-toe/music/draw.mp3');
 
 //Scoreboard
 let scoreboard = {
@@ -21,8 +21,8 @@ let scoreboard = {
 };
 
 // Players
-let player1 = '<img class="player-icon" src="projects/tic-tac-toe/images/bb8 (1).png">';
-let player2 = '<img class="player-icon" src="projects/tic-tac-toe/images/battle droid (2).png">';
+let player1 = '<img class="player-icon" src="/my-repo/projects/tic-tac-toe/images/bb8 (1).png">';
+let player2 = '<img class="player-icon" src="/my-repo/projects/tic-tac-toe/images/battle droid (2).png">';
 
 // Current player
 let currentPlayer = player1;
@@ -156,11 +156,11 @@ resetButton.addEventListener('click', function() {
 
 // Array of background images
 var backgrounds = [
-  "url('projects/tic-tac-toe/images/(11).jpeg')",
-  "url('projects/tic-tac-toe/images/(12).jpeg')",
-  "url('projects/tic-tac-toe/images/(13).jpeg')",
-  "url('projects/tic-tac-toe/images/(14).jpeg')",
-  "url('projects/tic-tac-toe/images/(15).jpeg')",
+  "url('/my-repo/projects/tic-tac-toe/images/(11).jpeg')",
+  "url('/my-repo/projects/tic-tac-toe/images/(12).jpeg')",
+  "url('/my-repo/projects/tic-tac-toe/images/(13).jpeg')",
+  "url('/my-repo/projects/tic-tac-toe/images/(14).jpeg')",
+  "url('/my-repo/projects/tic-tac-toe/images/(15).jpeg')",
 ];
 
 // Set initial background image
