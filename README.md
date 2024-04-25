@@ -7,10 +7,11 @@ Here is the link to try my game
 
 ## Screenshots
 #### Game Starts
-<img width="1637" alt="Game Starts" src="https://github.com/CodePnut/Tic-Tac-Toe/assets/159984999/277d33b2-59e1-4b9b-9325-910718391bd8">
+<img width="1637" alt="Game Starts" src="https://github.com/CodePnut/Project-1/assets/159984999/7c1601cc-1f84-4e95-91f9-cf298e85637a">
 
 #### Game End
-<img width="1413" alt="Game Ends" src="https://github.com/CodePnut/Tic-Tac-Toe/assets/159984999/b62301f0-6cf7-4189-8816-f2b5e10dfb3b">
+<img width="1413" alt="Game Ends" src="https://github.com/CodePnut/Project-1/assets/159984999/1c357bb5-a805-4920-9a4e-4fc1cde9ed2c">
+
 
 
 ## Technologies used
