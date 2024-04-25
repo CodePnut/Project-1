@@ -10,9 +10,9 @@ let resetButton = document.getElementById('reset');
 let result = document.getElementById('result');
 
 // Sounds for the game
-let player1WinSound = new Audio('music/Player 1.mp3');
-let player2WinSound = new Audio('music/Player 2.mp3');
-let drawSound = new Audio('music/draw.mp3');
+let player1WinSound = new Audio('./music/Player 1.mp3');
+let player2WinSound = new Audio('./music/Player 2.mp3');
+let drawSound = new Audio('./music/draw.mp3');
 
 //Scoreboard
 let scoreboard = {
@@ -21,8 +21,8 @@ let scoreboard = {
 };
 
 // Players
-let player1 = '<img class="player-icon" src="images/battle droid (2).png">';
-let player2 = '<img class="player-icon" src="images/battle droid (2).png">';
+let player1 = '<img class="player-icon" src="./images/bb8 (1).png">';
+let player2 = '<img class="player-icon" src="./images/battle droid (2).png">';
 
 // Current player
 let currentPlayer = player1;
