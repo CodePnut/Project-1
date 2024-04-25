@@ -21,8 +21,8 @@ let scoreboard = {
 };
 
 // Players
-let player1 = '<img class="player-icon" src="/images/bb8 (1).png">';
-let player2 = '<img class="player-icon" src="/images/battle droid (2).png">';
+let player1 = '<img class="player-icon" src="images/battle droid (2).png">';
+let player2 = '<img class="player-icon" src="images/battle droid (2).png">';
 
 // Current player
 let currentPlayer = player1;
