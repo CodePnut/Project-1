@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="game-theme">Star Wars - Battle of the Droids</h1>
+  <h2 class="score-board">
+      The Resistance: <span class="player-1-score">0</span> | 
+      Galactic Empire: <span class="player-2-score">0</span>
+    </h2>
+  <div class="game-board">
+    <div class="row">
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+    </div>
+    <div class="row">
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+    </div>
+    <div class="row">
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+    </div>
+  </div>
+  <!--Change Background-->
+  <div class="change-background">
+    <button id="change-background">Change Background</button>
+  </div>
+  <!--Mute Button-->
+  <div class="mute">
+    <button id="sound-toggle-button">Sound: ON</button>
+  </div>
+  <!--Pop-up message-->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <p id="result"></p>
+      <button id="play-again">Play Again</button>
+      <button id="reset">Reset</button>
+    </div>
+  </div>
+<script src="app.js"></script>
+</body>
+</html>

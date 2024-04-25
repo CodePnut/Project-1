@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+html,body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('/Users/genesis/seb/projects/tic-tac-toe/images/  (12).jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+h1, h2 {
+  color: white; /* Change this to your preferred text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 20px 0;
+}
+
+.game-board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.cell {
+  border: 3px solid yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  width: 200px; /* Set a fixed width */
+  height: 200px; /* Set a fixed height */
+  margin: 10px;
+}
+
+.cell:hover {
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+#reset-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.player-icon {
+  max-width: 100%;
+  max-height: 100%;
+  animation: scale 3s infinite;
+}
+
+/* Modal */
+.modal-content {
+  background-color: #0b0f20; /* Dark blue */
+  color: #00ff00; /* Bright green */
+  margin: 5% auto;
+  padding: 20px;
+  border: 3px solid #00ff00; /* Bright green */
+  width: 80%;
+  font-family: 'Courier New', Courier, monospace; /* Monospace font */
+  text-shadow: 0 0 5px #00ff00; /* Text glow */
+  box-shadow: 0 0 20px #00ff00; /* Box glow */
+  animation: pulse 2s infinite; /* Pulse animation */
+  display: none;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 20px #00ff00;
+  }
+  50% {
+    box-shadow: 0 0 30px #00ff00, 0 0 10px #00ff00;
+  }
+  100% {
+    box-shadow: 0 0 20px #00ff00;
+  }
+}
+
+#play-again, #reset {
+  background-color: #00ff00; /* Bright green */
+  color: #0b0f20; /* Dark blue */
+  border: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+#play-again:hover, #reset:hover {
+  transform: scale(1.1);
+}
