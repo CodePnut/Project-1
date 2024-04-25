@@ -104,7 +104,9 @@ cells.forEach(cell => {
     if (Array.from(cells).every(cell => cell.innerHTML)) {
       result.textContent = 'It\'s a draw!';
       modalContent.style.display = 'block';
-      drawSound.play();
+      if (!isMuted) {
+        drawSound.play();
+      }
       gameOver = true;
       return;
     }
@@ -177,21 +179,3 @@ function changeBackground() {
 
 // Add event listener to the button
 document.getElementById('change-background').addEventListener('click', changeBackground);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
