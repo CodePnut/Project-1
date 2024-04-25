@@ -21,7 +21,7 @@ Here is the link to try my game:  https://codepnut.github.io/Project-1/
 - GitHub Pages
 
 ## Next steps
-- Implement Bot player Algorythme (Easy, Medium, Hard)
+- Implement Bot player Algorythm (Easy, Medium, Hard)
 - More Theme customisations (Font, Icon images, Outlines)
 - Create an option for players to switch sides
 - Implement unique game conditionals
