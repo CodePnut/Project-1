@@ -3,7 +3,7 @@ Theme: Star Wars (Droids)
 Simplified Version
 
 ## Getting Started
-Here is the link to try my game
+Here is the link to try my game:  https://codepnut.github.io/Project-1/
 
 ## Screenshots
 #### Game Starts
