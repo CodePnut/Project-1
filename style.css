@@ -147,7 +147,16 @@ h1, h2 {
   .cell {
     width: 80%;
     height: 80%;
-    min-width: 120px;
-    min-height: 120px;
+    min-width: 90px;
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cell .icon {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
   }
 }
