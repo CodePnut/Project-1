@@ -128,3 +128,24 @@ h1, h2 {
 #play-again:hover, #reset:hover {
   transform: scale(1.1);
 }
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .game-board {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .cell {
+    width: 30%;
+    height: 30%;
+  }
+}
